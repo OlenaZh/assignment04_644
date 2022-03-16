@@ -9,8 +9,16 @@
 //number = parseFloat(prompt('Please enter a number'));
 //halfNumber();
 
-
 //STEP 2
+let number;
+
+function squareNumber() {
+    number = number * number;
+   document.write(`The result of squaring the number is ${number}.`);
+}
+
+number = parseFloat(prompt('Please enter a number'));
+squareNumber();
 
 //STEP 3
 
