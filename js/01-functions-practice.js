@@ -57,7 +57,7 @@ let num1, num2, num3;
      }
      document.write(`The sum of numbers ${num1}, ${num2} and ${num3} is ${total}.`);
  }
- mun1 = parseFloat(prompt('Please enter a first number'));
+ num1 = parseFloat(prompt('Please enter a first number'));
 num2 = parseFloat(prompt('Please enter a second number'));
 num3 = parseFloat(prompt('Please enter third number'));
 
