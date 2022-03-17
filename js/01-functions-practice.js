@@ -48,18 +48,18 @@
 
 //STEP 5
 
-let num1, num2, num3;
+//let num1, num2, num3;
 
- function calculate(numbers) {
-     let total = Number(numbers);
-     for (let i = 1; i < arguments.length; i++) {
-         total += Number(arguments[i]);
-     }
-     document.write(`The sum of numbers ${num1}, ${num2} and ${num3} is ${total}.`);
- }
- num1 = parseFloat(prompt('Please enter a first number'));
-num2 = parseFloat(prompt('Please enter a second number'));
-num3 = parseFloat(prompt('Please enter third number'));
+ //function calculate(numbers) {
+     //let total = Number(numbers);
+     //for (let i = 1; i < arguments.length; i++) {
+         //total += Number(arguments[i]);
+     //}
+     //document.write(`The sum of numbers ${num1}, ${num2} and ${num3} is ${total}.`);
+ //}
+ //num1 = parseFloat(prompt('Please enter a first number'));
+//num2 = parseFloat(prompt('Please enter a second number'));
+//num3 = parseFloat(prompt('Please enter third number'));
 
-calculate(num1, num2, num3);
+//calculate(num1, num2, num3);
 
