@@ -21,18 +21,45 @@
 //squareNumber();
 
 //STEP 3
-let result, firstNumber, secondNumber;
+//let result, firstNumber, secondNumber;
 
-function percentOf() {
-    result = (firstNumber / secondNumber) * 100;
-    document.write(`${firstNumber} is ${result}% of ${secondNumber}`);
-}
+//function percentOf() {
+    //result = (firstNumber / secondNumber) * 100;
+    //document.write(`${firstNumber} is ${result}% of ${secondNumber}`);
+//}
 
-firstNumber = parseFloat(prompt('Please enter a first number'));
-secondNumber = parseFloat(prompt('Please enter a second number'));
-percentOf();
-
+//firstNumber = parseFloat(prompt('Please enter a first number'));
+//secondNumber = parseFloat(prompt('Please enter a second number'));
+//percentOf();
 
 //STEP 4
 
+//let result, firstNumber, secondNumber;
+
+//function findModulus() {
+    //result = firstNumber % secondNumber;
+    //document.write(`${result} is the modulus of ${firstNumber} and ${secondNumber}`)
+//}
+
+//firstNumber = parseFloat(prompt('Please enter a first number'));
+//secondNumber = parseFloat(prompt('Please enter a second number'));
+
+//findModulus();
+
 //STEP 5
+
+let num1, num2, num3;
+
+ function calculate(numbers) {
+     let total = Number(numbers);
+     for (let i = 1; i < arguments.length; i++) {
+         total += Number(arguments[i]);
+     }
+     document.write(`The sum of numbers ${num1}, ${num2} and ${num3} is ${total}.`);
+ }
+ mun1 = parseFloat(prompt('Please enter a first number'));
+num2 = parseFloat(prompt('Please enter a second number'));
+num3 = parseFloat(prompt('Please enter third number'));
+
+calculate(num1, num2, num3);
+
